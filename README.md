@@ -33,3 +33,27 @@ Test were done using mockito and JUnit - the real testing using CouchDB and Ledg
 # Future extension
 In future fabric SDK can be used for packaging the chain and spinning the docker image for fabric. 
 Also, then a frontend UI can be established with SDK in between interacting with the chain.  
+
+# Folder structure
+```
+└── 📁loanMgmtSystem
+    └── 📁Documentation
+        ├── LMS_UML.pdf
+        ├── Loan_Management_System_Hyperledger_fabric_overview.pdf
+        ├── UML_diagram.uxf
+        └── 📁src
+            └── 📁main
+                └── 📁java
+                    └── 📁loanMgmtSystem
+                        ├── Library.java
+                        ├── LoanChain.java
+                        ├── LoanData.java
+                        ├── Vehicle.java
+            └── 📁test
+                └── 📁java
+                    └── 📁loanMgmtSystem
+                        ├── LoanChainTest.java
+        ├── build.gradle.kts
+    ├── README.md
+    └── settings.gradle.kts
+```
