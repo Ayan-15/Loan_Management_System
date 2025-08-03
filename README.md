@@ -30,6 +30,6 @@ The chaincode can be found in LoanChain.java. It has :
 # Testing
 Test were done using mockito and JUnit - the real testing using CouchDB and LedgerDB can be done in future when Fabric SDK will be using. 
 
-# Future extention
+# Future extension
 In future fabric SDK can be used for packaging the chain and spinning the docker image for fabric. 
 Also, then a frontend UI can be established with SDK in between interacting with the chain.  
